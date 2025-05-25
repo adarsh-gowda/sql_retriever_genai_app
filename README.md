@@ -22,6 +22,8 @@ GOOGLE_API_KEY=your_google_api_key_here
 pip install -r requirements.txt
 ```
 
+To create database
+
 ```bash
 python sqlLite.py
 ```
