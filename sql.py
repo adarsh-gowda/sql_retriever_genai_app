@@ -31,8 +31,7 @@ def read_sql_query(sql,db):
     return rows
 
 ## Define Your Prompt
-prompt=[
-    """
+prompt=["""
     You are an expert in converting English questions to SQL query!
     The SQL database has the name students and has the following columns - NAME, CLASS, 
     SECTION \n\nFor example,\nExample 1 - How many entries of records are present?, 
@@ -43,9 +42,10 @@ prompt=[
     also the sql code should not have ``` in beginning or end and sql word in output
 
     """
-
-
 ]
+
+
+
 
 ## Streamlit App
 
